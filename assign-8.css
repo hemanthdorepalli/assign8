@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+.child1{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.child2{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.child3{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class1{
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.class2{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.class3{
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#id1{
+    width: 25vw;
+    height: 40vh;
+    border: 3px rgb(0, 204, 255) solid;
+    border-left: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+#id2{
+    width: 25vw;
+    height: 35vh;
+    border: 2px red solid;
+    border-left: hidden;
+    border-bottom: hidden; 
+    border-right: hidden;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#id3{
+    width: 25vw;
+    height: 35vh;
+    border: 2px orange solid;
+    border-left: hidden;
+     border-bottom: hidden; 
+    border-right: hidden;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#i1{
+    font-size: 60px;
+    color: rgb(0, 204, 255);
+}
+#i2{
+    color: red;
+    font-size: 60px;
+}
+#i3{
+    color: orange;
+    font-size: 60px;
+}
+#i4{
+    color:rgb(0, 204, 255);
+    font-size: 60px;
+    
+}
+h3{
+    text-align: end;
+}
+@media screen and (max-width) {
+
+    body{
+      display: block;
+    }
+    .child1{
+        width: auto;
+        height: auto;
+        display: block;
+    
+    
+    }
+    .child2{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    .child3{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    .class1{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    
+    .class2{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    .class3{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    #id1{
+        width: auto;
+        height: auto;
+
+    }
+    #id2{
+        width: auto;
+        height: auto;
+    }
+    
+    #id3{
+        width: auto;
+        height: auto;
+    }
+    
+
+    
+}
